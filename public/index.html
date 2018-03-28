@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Hammersmith+One|Roboto" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet">
+   
+    <title>React App</title>
+  </head>
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <div class="container">
+      <div id="root"></div>
+    </div>
+
+
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>  
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+  
+    <script>
+      
+  $(function(){
+     
+    $("#nav-icon").on("click", function(){
+        $(this).toggleClass("open");
+        $("nav ul:last-of-type").toggleClass("show");
+
+    });
+
+    $("header img").addClass("animated fadeInLeft");
+    $(window).on("scroll", function(){
+      let $item=$(".a").offset();
+      let $item2=$(".b").offset();
+      let $item3=$(".c").offset();  
+
+      if($(this).scrollTop() >= $item.top - 600){
+        $(".a").addClass("animated fadeInLeft");
+      }else{
+        $(".a").removeClass("animated fadeInLeft");
+      }
+      if($(this).scrollTop() >=  $item2.top - 600){
+        $(".b").addClass("animated fadeInLeft");
+      }else{
+        $(".b").removeClass("animated fadeInLeft");
+      }
+      if($(this).scrollTop() > $item3.top - 600){
+        $(".c").addClass("animated fadeInLeft");
+      }else{
+        $(".c").removeClass("animated fadeInLeft");
+      }
+      
+      
+
+    });
+
+  
+
+  });
+    </script>
+  
+  </body>
+</html>
