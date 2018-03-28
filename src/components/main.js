@@ -17,21 +17,21 @@ class Main extends Component {
               </div>
           </div>
           <div className="sections a">
-              <img src="./assets/unicorn3.png" alt="You dont feel like one?" />
+              <img src="./unicorn3.png" alt="You dont feel like one?" />
               <div>
                 <h2>You do not feel like one already?</h2>
                 <p>Nullam lacinia purus nec aliquam dictum. Nam lobortis augue sit amet sem tempor auctor. Praesent non nisi ipsum. Aliquam eget leo at felis fringilla lacinia. Vivamus dui lorem, iaculis vitae ligula quis, laoreet dapibus quam. Nunc non erat mollis, aliquam diam in, mattis erat. Donec suscipit purus ipsum, quis interdum erat pretium non. Etiam odio magna, convallis sit amet rutrum vitae, posuere dictum lacus.</p>
               </div>
           </div>
           <div className="sections b">
-              <img src="./assets/unicorn2.png" alt="You dont feel like one?" />
+              <img src="./unicorn2.png" alt="You dont feel like one?" />
               <div>
                 <h2>We all can be one, I will tell you how</h2>
                 <p>Nullam lacinia purus nec aliquam dictum. Nam lobortis augue sit amet sem tempor auctor. Praesent non nisi ipsum. Aliquam eget leo at felis fringilla lacinia. Vivamus dui lorem, iaculis vitae ligula quis, laoreet dapibus quam. Nunc non erat mollis, aliquam diam in, mattis erat. Donec suscipit purus ipsum, quis interdum erat pretium non. Etiam odio magna, convallis sit amet rutrum vitae, posuere dictum lacus.</p>
               </div>
           </div>
           <div className="sections c">
-              <img src="./assets/unicorn4.png" alt="You dont feel like one?" />
+              <img src="./unicorn4.png" alt="You dont feel like one?" />
               <div>
                 <h2>Now that you know we got your back, be yourself</h2>
                 <p>Nullam lacinia purus nec aliquam dictum. Nam lobortis augue sit amet sem tempor auctor. Praesent non nisi ipsum. Aliquam eget leo at felis fringilla lacinia. Vivamus dui lorem, iaculis vitae ligula quis, laoreet dapibus quam. Nunc non erat mollis, aliquam diam in, mattis erat. Donec suscipit purus ipsum, quis interdum erat pretium non. Etiam odio magna, convallis sit amet rutrum vitae, posuere dictum lacus.</p>
